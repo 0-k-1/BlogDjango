@@ -32,7 +32,7 @@ def AddcommentView(request):
     print('ssssss')
     if request.is_ajax():
         data = request.POST
-        # 评论内容哦你
+        # 评论内容
         new_content = data.get('w')
         # 评论对象，指的是页面留言、文章、等
         comment_post_ID = data.get('comment_post_ID')

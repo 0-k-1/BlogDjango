@@ -519,9 +519,9 @@ CREATE TABLE `oauth_ouser` (
 -- ----------------------------
 -- Records of oauth_ouser
 -- ----------------------------
-INSERT INTO `oauth_ouser` VALUES ('1', 'pbkdf2_sha256$36000$P2Mt91Hx3fg2$c0VBYH+zIB2shdRrNT3OidoluZgta/2uTFjAZPfBVIU=', '2019-03-02 00:16:48', '0', 'stormsha', '', '', '1414749109@qq.com', '0', '1', '2019-03-02 00:16:47', '', 'avatar/default.png');
+INSERT INTO `oauth_ouser` VALUES ('1', 'pbkdf2_sha256$36000$P2Mt91Hx3fg2$c0VBYH+zIB2shdRrNT3OidoluZgta/2uTFjAZPfBVIU=', '2019-03-02 00:16:48', '0', 'MXP', '', '', '1414749109@qq.com', '0', '1', '2019-03-02 00:16:47', '', 'avatar/default.png');
 INSERT INTO `oauth_ouser` VALUES ('2', 'pbkdf2_sha256$36000$ZZmzUMz2lTpm$0xadcPRoeFUHZWxNkvh18mklwhjizMAQbhlsUAx0tJ8=', '2019-03-02 00:26:14', '0', 'storm', '', '', '1414749110@qq.com', '0', '1', '2019-03-02 00:22:46', '', 'avatar/default.png');
-INSERT INTO `oauth_ouser` VALUES ('3', 'pbkdf2_sha256$36000$O8WvIJBxZqOR$0KbWOH6FUiwk8kFjQ/sGye2riwYi3nJEpXT3VWcGe+8=', '2019-03-02 13:55:17', '0', 'asdfgh', '', '', 'stormsha6@gmail.com', '0', '1', '2019-03-02 00:26:58', '', 'avatar/default.png');
+INSERT INTO `oauth_ouser` VALUES ('3', 'pbkdf2_sha256$36000$O8WvIJBxZqOR$0KbWOH6FUiwk8kFjQ/sGye2riwYi3nJEpXT3VWcGe+8=', '2019-03-02 13:55:17', '0', 'asdfgh', '', '', 'MXP6@gmail.com', '0', '1', '2019-03-02 00:26:58', '', 'avatar/default.png');
 INSERT INTO `oauth_ouser` VALUES ('4', 'pbkdf2_sha256$36000$zNEBARjVIhN3$BXXLsLtWIxfhmEyvOnTmtWFbiQeCnrtW0Jy02Try2jU=', '2019-03-04 15:52:55', '1', 'createsuperuser', '', '', '1414749109@qq.com', '1', '1', '2019-03-02 14:08:45', '', 'avatar/2019/03/02/微信图片_20190301204333.jpg');
 
 -- ----------------------------
@@ -658,7 +658,7 @@ CREATE TABLE `storm_activate` (
 -- ----------------------------
 -- Records of storm_activate
 -- ----------------------------
-INSERT INTO `storm_activate` VALUES ('1', '本站源码已经共享在 <a href=\"https://github.com/stormsha\" target=\"_blank\">Github</a> 欢迎 Fork、Star、提建议、发现Bug', '1', '2019-03-06 00:53:46');
+INSERT INTO `storm_activate` VALUES ('1', '本站源码已经共享在 <a href=\"https://github.com/MXP\" target=\"_blank\">Github</a> 欢迎 Fork、Star、提建议、发现Bug', '1', '2019-03-06 00:53:46');
 
 -- ----------------------------
 -- Table structure for storm_article
@@ -814,7 +814,7 @@ CREATE TABLE `storm_category` (
 -- ----------------------------
 -- Records of storm_category
 -- ----------------------------
-INSERT INTO `storm_category` VALUES ('1', 'python', 'python', 'StormSha的个人网站，记录生活的瞬间，分享学习的心得，感悟生活，留住感动，静静寻觅生活的美好', '2');
+INSERT INTO `storm_category` VALUES ('1', 'python', 'python', 'MXP的个人网站，记录生活的瞬间，分享学习的心得，感悟生活，留住感动，静静寻觅生活的美好', '2');
 
 -- ----------------------------
 -- Table structure for storm_friendlink
@@ -883,7 +883,7 @@ CREATE TABLE `storm_tag` (
 -- ----------------------------
 -- Records of storm_tag
 -- ----------------------------
-INSERT INTO `storm_tag` VALUES ('1', 'python', 'python', 'StormSha的个人网站，记录生活的瞬间，分享学习的心得，感悟生活，留住感动，静静寻觅生活的美好');
+INSERT INTO `storm_tag` VALUES ('1', 'python', 'python', 'MXP的个人网站，记录生活的瞬间，分享学习的心得，感悟生活，留住感动，静静寻觅生活的美好');
 
 -- ----------------------------
 -- Table structure for storm_timeline

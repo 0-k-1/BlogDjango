@@ -3,7 +3,7 @@
 
 环境：Python3.6 + Django1.11 + Wordpress，Yusi主题 制作的个人主页
 
-作者：stormsha
+作者：MXP
 
 声明：如果使用此源码，请在项目上线后给此仓库一个指向链接，谢谢
 
@@ -18,11 +18,11 @@
 
 ### 分支online
 
-在线运行的项目 [个人主页](https://stormsha.com)，此项目后期有任何功能升级都会更新此分支，也会不断添加新功能在此分支
+在线运行的项目 [个人主页](https://MXP.com)，此项目后期有任何功能升级都会更新此分支，也会不断添加新功能在此分支
 
 ## 博客效果
 
-https://stormsha.com
+https://MXP.com
 
 ## 功能介绍
 
@@ -39,17 +39,17 @@ https://stormsha.com
 
 ## 博客主页效果
 
-![博客主页 PC 效果](http://docs.stormsha.com/20190418220609.png)
+![博客主页 PC 效果](http://docs.MXP.com/20190418220609.png)
 
 ## 博客ipad显示效果（响应式）
 
-![ipad 竖屏效果](http://docs.stormsha.com/20190418215046.png)
+![ipad 竖屏效果](http://docs.MXP.com/20190418215046.png)
 
 ## 博客手机端显示效果（响应式）
 
-![博客手机端效果](http://docs.stormsha.com/20190418215211.png)
+![博客手机端效果](http://docs.MXP.com/20190418215211.png)
 
 ## 运行指导
 
 - 由于本项目分为几个不同的分支，每个分支的功能有所不同，但是运行的方式基本相同，所以需要根据分支查看对应的运行wiki
-- 指导 wiki：https://github.com/stormsha/blog/wiki
+- 指导 wiki：https://github.com/MXP/blog/wiki
