@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from user.models import Ouser
 from rest_framework import serializers
-from storm.models import Article, Tag, Category
+from myblog.models import Article, Tag, Category
 
 
 class UserSerializer(serializers.ModelSerializer):

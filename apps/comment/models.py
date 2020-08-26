@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from storm.models import Article
+from myblog.models import Article
 
 import markdown
 import emoji

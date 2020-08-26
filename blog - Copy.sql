@@ -395,16 +395,16 @@ INSERT INTO `django_content_type` VALUES ('20', 'sites', 'site');
 INSERT INTO `django_content_type` VALUES ('23', 'socialaccount', 'socialaccount');
 INSERT INTO `django_content_type` VALUES ('24', 'socialaccount', 'socialapp');
 INSERT INTO `django_content_type` VALUES ('25', 'socialaccount', 'socialtoken');
-INSERT INTO `django_content_type` VALUES ('26', 'storm', 'activate');
-INSERT INTO `django_content_type` VALUES ('6', 'storm', 'article');
-INSERT INTO `django_content_type` VALUES ('14', 'storm', 'bigcategory');
-INSERT INTO `django_content_type` VALUES ('7', 'storm', 'carousel');
-INSERT INTO `django_content_type` VALUES ('8', 'storm', 'category');
-INSERT INTO `django_content_type` VALUES ('9', 'storm', 'friendlink');
-INSERT INTO `django_content_type` VALUES ('10', 'storm', 'keyword');
-INSERT INTO `django_content_type` VALUES ('11', 'storm', 'silian');
-INSERT INTO `django_content_type` VALUES ('12', 'storm', 'tag');
-INSERT INTO `django_content_type` VALUES ('13', 'storm', 'timeline');
+INSERT INTO `django_content_type` VALUES ('26', 'myblog', 'activate');
+INSERT INTO `django_content_type` VALUES ('6', 'myblog', 'article');
+INSERT INTO `django_content_type` VALUES ('14', 'myblog', 'bigcategory');
+INSERT INTO `django_content_type` VALUES ('7', 'myblog', 'carousel');
+INSERT INTO `django_content_type` VALUES ('8', 'myblog', 'category');
+INSERT INTO `django_content_type` VALUES ('9', 'myblog', 'friendlink');
+INSERT INTO `django_content_type` VALUES ('10', 'myblog', 'keyword');
+INSERT INTO `django_content_type` VALUES ('11', 'myblog', 'silian');
+INSERT INTO `django_content_type` VALUES ('12', 'myblog', 'tag');
+INSERT INTO `django_content_type` VALUES ('13', 'myblog', 'timeline');
 
 -- ----------------------------
 -- Table structure for django_migrations
@@ -436,15 +436,15 @@ INSERT INTO `django_migrations` VALUES ('12', 'account', '0001_initial', '2019-0
 INSERT INTO `django_migrations` VALUES ('13', 'account', '0002_email_max_length', '2019-02-27 23:56:19');
 INSERT INTO `django_migrations` VALUES ('14', 'admin', '0001_initial', '2019-02-27 23:56:19');
 INSERT INTO `django_migrations` VALUES ('15', 'admin', '0002_logentry_remove_auto_add', '2019-02-27 23:56:19');
-INSERT INTO `django_migrations` VALUES ('16', 'storm', '0001_initial', '2019-02-27 23:56:22');
-INSERT INTO `django_migrations` VALUES ('17', 'storm', '0002_islove', '2019-02-27 23:56:22');
-INSERT INTO `django_migrations` VALUES ('18', 'storm', '0003_auto_20190224_1541', '2019-02-27 23:56:23');
-INSERT INTO `django_migrations` VALUES ('19', 'storm', '0004_auto_20190224_1931', '2019-02-27 23:56:23');
-INSERT INTO `django_migrations` VALUES ('20', 'storm', '0005_auto_20190225_2105', '2019-02-27 23:56:23');
-INSERT INTO `django_migrations` VALUES ('21', 'storm', '0006_auto_20190225_2108', '2019-02-27 23:56:24');
-INSERT INTO `django_migrations` VALUES ('22', 'storm', '0007_auto_20190225_2117', '2019-02-27 23:56:25');
-INSERT INTO `django_migrations` VALUES ('23', 'storm', '0008_auto_20190225_2118', '2019-02-27 23:56:25');
-INSERT INTO `django_migrations` VALUES ('24', 'storm', '0009_auto_20190225_2123', '2019-02-27 23:56:26');
+INSERT INTO `django_migrations` VALUES ('16', 'myblog', '0001_initial', '2019-02-27 23:56:22');
+INSERT INTO `django_migrations` VALUES ('17', 'myblog', '0002_islove', '2019-02-27 23:56:22');
+INSERT INTO `django_migrations` VALUES ('18', 'myblog', '0003_auto_20190224_1541', '2019-02-27 23:56:23');
+INSERT INTO `django_migrations` VALUES ('19', 'myblog', '0004_auto_20190224_1931', '2019-02-27 23:56:23');
+INSERT INTO `django_migrations` VALUES ('20', 'myblog', '0005_auto_20190225_2105', '2019-02-27 23:56:23');
+INSERT INTO `django_migrations` VALUES ('21', 'myblog', '0006_auto_20190225_2108', '2019-02-27 23:56:24');
+INSERT INTO `django_migrations` VALUES ('22', 'myblog', '0007_auto_20190225_2117', '2019-02-27 23:56:25');
+INSERT INTO `django_migrations` VALUES ('23', 'myblog', '0008_auto_20190225_2118', '2019-02-27 23:56:25');
+INSERT INTO `django_migrations` VALUES ('24', 'myblog', '0009_auto_20190225_2123', '2019-02-27 23:56:26');
 INSERT INTO `django_migrations` VALUES ('25', 'comment', '0001_initial', '2019-02-27 23:56:30');
 INSERT INTO `django_migrations` VALUES ('26', 'sessions', '0001_initial', '2019-02-27 23:56:30');
 INSERT INTO `django_migrations` VALUES ('27', 'sites', '0001_initial', '2019-02-27 23:56:30');
@@ -452,7 +452,7 @@ INSERT INTO `django_migrations` VALUES ('28', 'sites', '0002_alter_domain_unique
 INSERT INTO `django_migrations` VALUES ('29', 'socialaccount', '0001_initial', '2019-02-27 23:56:32');
 INSERT INTO `django_migrations` VALUES ('30', 'socialaccount', '0002_token_max_lengths', '2019-02-27 23:56:33');
 INSERT INTO `django_migrations` VALUES ('31', 'socialaccount', '0003_extra_data_default_dict', '2019-02-27 23:56:33');
-INSERT INTO `django_migrations` VALUES ('32', 'storm', '0010_activate', '2019-03-01 00:52:42');
+INSERT INTO `django_migrations` VALUES ('32', 'myblog', '0010_activate', '2019-03-01 00:52:42');
 
 -- ----------------------------
 -- Table structure for django_session
@@ -520,7 +520,7 @@ CREATE TABLE `oauth_ouser` (
 -- Records of oauth_ouser
 -- ----------------------------
 INSERT INTO `oauth_ouser` VALUES ('1', 'pbkdf2_sha256$36000$P2Mt91Hx3fg2$c0VBYH+zIB2shdRrNT3OidoluZgta/2uTFjAZPfBVIU=', '2019-03-02 00:16:48', '0', 'MXP', '', '', '1414749109@qq.com', '0', '1', '2019-03-02 00:16:47', '', 'avatar/default.png');
-INSERT INTO `oauth_ouser` VALUES ('2', 'pbkdf2_sha256$36000$ZZmzUMz2lTpm$0xadcPRoeFUHZWxNkvh18mklwhjizMAQbhlsUAx0tJ8=', '2019-03-02 00:26:14', '0', 'storm', '', '', '1414749110@qq.com', '0', '1', '2019-03-02 00:22:46', '', 'avatar/default.png');
+INSERT INTO `oauth_ouser` VALUES ('2', 'pbkdf2_sha256$36000$ZZmzUMz2lTpm$0xadcPRoeFUHZWxNkvh18mklwhjizMAQbhlsUAx0tJ8=', '2019-03-02 00:26:14', '0', 'myblog', '', '', '1414749110@qq.com', '0', '1', '2019-03-02 00:22:46', '', 'avatar/default.png');
 INSERT INTO `oauth_ouser` VALUES ('3', 'pbkdf2_sha256$36000$O8WvIJBxZqOR$0KbWOH6FUiwk8kFjQ/sGye2riwYi3nJEpXT3VWcGe+8=', '2019-03-02 13:55:17', '0', 'asdfgh', '', '', 'MXP6@gmail.com', '0', '1', '2019-03-02 00:26:58', '', 'avatar/default.png');
 INSERT INTO `oauth_ouser` VALUES ('4', 'pbkdf2_sha256$36000$zNEBARjVIhN3$BXXLsLtWIxfhmEyvOnTmtWFbiQeCnrtW0Jy02Try2jU=', '2019-03-04 15:52:55', '1', 'createsuperuser', '', '', '1414749109@qq.com', '1', '1', '2019-03-02 14:08:45', '', 'avatar/2019/03/02/微信图片_20190301204333.jpg');
 

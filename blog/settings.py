@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sitemaps',
     'django.contrib.humanize',  # 添加人性化过滤器
-    'storm',    # 博客应用
+    'myblog',    # 博客应用
     'user',     # 自定义用户应用
     'comment',  # 评论
     'haystack',  # 全文搜索应用 这个要放在其他应用之前
@@ -70,7 +70,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
 
-                'storm.context_processors.settings_info',  # 自定义上下文管理器
+                'myblog.context_processors.settings_info',  # 自定义上下文管理器
             ],
         },
     },
@@ -158,7 +158,7 @@ BASE_ORPHANS = 5
 # 全文搜索应用配置
 HAYSTACK_CONNECTIONS = {
     'default': {
-        'ENGINE': 'storm.whoosh_cn_backend.WhooshEngine',  # 选择语言解析器为自己更换的结巴分词
+        'ENGINE': 'myblog.whoosh_cn_backend.WhooshEngine',  # 选择语言解析器为自己更换的结巴分词
         'PATH': os.path.join(BASE_DIR, 'whoosh_index'),  # 保存索引文件的地址，选择主目录下，这个会自动生成
     }
 }

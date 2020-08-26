@@ -19,8 +19,8 @@ from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
 from django.contrib.sitemaps.views import sitemap
-from storm.sitemaps import ArticleSitemap, CategorySitemap, TagSitemap
-from storm.feeds import AllArticleRssFeed
+from myblog.sitemaps import ArticleSitemap, CategorySitemap, TagSitemap
+from myblog.feeds import AllArticleRssFeed
 
 from rest_framework.routers import DefaultRouter
 from api import views as api_views
@@ -42,8 +42,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # 用户
     url(r'^accounts/', include('user.urls', namespace='accounts')),
-    # storm
-    url('', include('storm.urls', namespace='blog')),  # blog
+    # myblog
+    url('', include('myblog.urls', namespace='blog')),  # blog
     # 评论
     url(r'^comment/', include('comment.urls', namespace='comment')),  # comment
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),  # 网站地图

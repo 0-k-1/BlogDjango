@@ -1,4 +1,4 @@
-from storm.models import Article
+from myblog.models import Article
 from .models import ArticleComment, CommentUser, AboutComment, MessageComment
 from django.conf import settings
 from django.http import HttpResponse
